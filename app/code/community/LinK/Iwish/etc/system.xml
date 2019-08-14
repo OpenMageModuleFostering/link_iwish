@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<config>
+
+    <tabs>
+        <iwish module="iwish" translate="label">
+            <label>IWish Button</label>
+            <sort_order>99999</sort_order>
+        </iwish>
+    </tabs>
+
+    <sections>
+        <iwish_options module="iwish" translate="label">
+            <label>Configuration</label>
+            <sort_order>1000</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <tab>iwish</tab>
+
+            <groups>
+
+                <config translate="label" module="iwish">
+                    <label>Options</label>
+                    <comment><![CDATA[Configure how the iWish Button appears.]]></comment>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <enabled translate="label">
+                            <label>Show button on product page</label>
+                            <comment><![CDATA[No template changes are required, just enable the button.]]></comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <show_in_default>1</show_in_default>
+                            <show_in_store>1</show_in_store>
+                            <show_in_website>1</show_in_website>
+                            <sort_order>100</sort_order>
+                        </enabled>
+                        <size translate="label">
+                            <label>Button size</label>
+                            <comment><![CDATA[No template changes are required, just enable the button.]]></comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>iwish/buttonsizes</source_model>
+                            <show_in_default>1</show_in_default>
+                            <show_in_store>1</show_in_store>
+                            <show_in_website>1</show_in_website>
+                            <sort_order>200</sort_order>
+                        </size>
+                        <jquery translate="label">
+                            <label>Include jQuery</label>
+                            <comment><![CDATA[jQuery is required for the iWish button to work]]></comment>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <show_in_default>1</show_in_default>
+                            <show_in_store>1</show_in_store>
+                            <show_in_website>1</show_in_website>
+                            <sort_order>300</sort_order>
+                        </jquery>
+                    </fields>
+                </config>
+
+            </groups>
+
+        </iwish_options>
+    </sections>
+
+</config>

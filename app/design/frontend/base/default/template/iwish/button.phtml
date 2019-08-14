@@ -1,0 +1,10 @@
+
+<!-- TODO add header? -->
+<h2>Add To</h2>
+<div class="iwish-button"
+     data-size="<?php echo Mage::getStoreConfig('iwish_options/config/size'); ?>"
+     data-name="<?php echo Mage::registry('current_product')->getName(); ?>"
+     data-description="<?php echo Mage::registry('current_product')->getDescription(); ?>"
+     data-price="<?php echo Mage::registry('current_product')->getPrice(); ?>"
+     data-url="<?php echo Mage::registry('current_product')->getProductUrl(); ?>"
+     data-image="<?php echo Mage::registry('current_product')->getImageUrl(); ?>"><?php echo Mage::helper('iwish')->__('Add to my iWish');?></div>

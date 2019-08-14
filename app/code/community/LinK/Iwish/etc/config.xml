@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Link_Iwish>
+            <version>0.1.0</version>
+        </Link_Iwish>
+    </modules>
+    <global>
+        <blocks>
+            <iwish>
+                <class>Link_Iwish_Block</class>
+            </iwish>
+        </blocks>
+        <helpers>
+            <iwish>
+                <class>Link_Iwish_Helper</class>
+            </iwish>
+        </helpers>
+        <models>
+            <iwish>
+                <class>Link_Iwish_Model</class>
+            </iwish>
+        </models>
+    </global>
+
+    <frontend>
+        <layout>
+            <updates>
+                <Link_Iwish>
+                    <file>iwish.xml</file>
+                </Link_Iwish>
+            </updates>
+        </layout>
+    </frontend>
+
+    <default>
+        <iwish_options>
+            <config>
+                <enabled>1</enabled>
+                <size>24</size>
+                <jquery>1</jquery>
+            </config>
+        </iwish_options>
+    </default>
+
+</config>
