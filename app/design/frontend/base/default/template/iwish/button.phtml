@@ -6,5 +6,5 @@
      data-name="<?php echo Mage::registry('current_product')->getName(); ?>"
      data-description="<?php echo Mage::registry('current_product')->getDescription(); ?>"
      data-price="<?php echo Mage::registry('current_product')->getPrice(); ?>"
-     data-url="<?php echo Mage::registry('current_product')->getProductUrl(); ?>"
+     data-url="<?php echo Mage::getBaseUrl() . 'urlcheckout/add?product=' . Mage::registry('current_product')->getId() . '&qty=1'; ?>"
      data-image="<?php echo Mage::registry('current_product')->getImageUrl(); ?>"><?php echo Mage::helper('iwish')->__('Add to my iWish');?></div>

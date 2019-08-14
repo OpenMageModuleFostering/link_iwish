@@ -1,13 +1,13 @@
 {
     "name": "OpenMageModuleFostering/Link_Iwish",
     "type": "magento-module",
-    "license": "Apache-Software-License-",
+    "license": "ASL",
     "homepage": "",
-    "description": "Add integration with universal iWish.be wishlists to your store.",
+    "description": "Integrate universal wishlists from iWish.be in your store.",
     "authors": [
     {
-        "name": "Lin.K N.V.",
-        "email": "magento@iwish.be"
+        "name": "LIN.K NV",
+        "email": "safeonline-dev@lin-k.net"
     }
 ],
     "suggest": {

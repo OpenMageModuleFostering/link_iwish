@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
 <config>
+
     <modules>
         <Link_Iwish>
             <version>0.1.0</version>
@@ -31,6 +32,15 @@
                 </Link_Iwish>
             </updates>
         </layout>
+        <routers>
+            <iwish>
+                <use>standard</use>
+                <args>
+                    <module>Link_Iwish</module>
+                    <frontName>urlcheckout</frontName>
+                </args>
+            </iwish>
+        </routers>
     </frontend>
 
     <default>

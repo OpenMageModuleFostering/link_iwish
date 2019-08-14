@@ -16,7 +16,6 @@ class Link_Iwish_Model_ButtonSizes
             array('value'=>50, 'label'=>Mage::helper('iwish')->__('Big (50px)')),
         );
     }
-
 }
 
 ?>

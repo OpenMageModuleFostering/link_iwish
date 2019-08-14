@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <config>
     <modules>
-        <Link_IWish>
+        <Link_Iwish>
             <active>true</active>
             <codePool>community</codePool>
             <!--<depends>-->
                 <!--<Mage_Cms />-->
             <!--</depends>-->
-        </Link_IWish>
+        </Link_Iwish>
     </modules>
 </config>
