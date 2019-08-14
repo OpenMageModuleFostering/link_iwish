@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package>
     <name>Link_Iwish</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <stability>stable</stability>
     <license>Apache Software License </license>
     <channel>community</channel>
@@ -16,8 +16,8 @@ Configuration options for the iWish button are available in the Admin Panel (Sys
 To learn more about iWish, visit http://iwish.be</description>
     <notes>Initial release</notes>
     <authors><author><name>Lin.K N.V.</name><user>sgdesmet</user><email>magento@iwish.be</email></author></authors>
-    <date>2012-12-11</date>
-    <time>11:52:03</time>
+    <date>2012-12-12</date>
+    <time>09:25:21</time>
     <contents><target name="magecommunity"><dir name="LinK"><dir name="Iwish"><dir name="Block"><file name="Button.php" hash="67dbe47dfa713bfea939c96d60a38ee4"/></dir><dir name="Helper"><file name="Data.php" hash="a8712c3b6171eb45f27734d0d39969ee"/></dir><dir name="Model"><file name="ButtonSizes.php" hash="98b3d59419bab36cd863d972ea3bac92"/></dir><dir name="etc"><file name="adminhtml.xml" hash="0432c60b691a70205f79316fbe730d37"/><file name="config.xml" hash="6b2c5d633011aadf310eeb0ae77f7eb4"/><file name="system.xml" hash="39d2db372f7aebe62c26f58b89634759"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="template"><dir name="iwish"><file name="button.phtml" hash="fabd36d7c8f2a6f5ffa47cdd67d5fca5"/></dir></dir><dir name="layout"><file name="iwish.xml" hash="cc8042d40afb0b383ade8cec99bb7b2a"/></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Link_Iwish.xml" hash="1904032fc1a1770ac0a0da479ff236e4"/></dir></target></contents>
     <compatible/>
     <dependencies><required><php><min>5.3.0</min><max>6.0.0</max></php></required></dependencies>
