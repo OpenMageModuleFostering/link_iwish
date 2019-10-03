@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Link_Iwish",
+    "name": "OpenMageModuleFostering\/Link_Iwish",
     "type": "magento-module",
     "license": "ASL",
     "homepage": "",
     "description": "Integrate universal wishlists from iWish.be in your store.",
     "authors": [
-    {
-        "name": "LIN.K NV",
-        "email": "safeonline-dev@lin-k.net"
-    }
-],
+        {
+            "name": "LIN.K NV",
+            "email": "safeonline-dev@lin-k.net"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
